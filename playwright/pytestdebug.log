@@ -1,0 +1,1327 @@
+versions pytest-9.1.1, python-3.14.7.final.0
+invocation_dir=C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright
+cwd=C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright
+args=('test_playwrightBasics.py', '-k', 'test_playwrightBasics', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x0000019FD071D010>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x0000019FD071D010>
+      pytest_metadata [hook]
+          metadata: {'Python': '3.14.7', 'Platform': 'Windows-11-10.0.26200-SP0', 'Packages': {'pytest': '9.1.1', 'pluggy': '1.6.0'}, 'Plugins': {'base-url': '2.1.0', 'bdd': '8.1.0', 'html': '4.2.0', 'metadata': '3.1.1', 'playwright': '0.9.0', 'xdist': '3.8.0'}}
+          config: <_pytest.config.Config object at 0x0000019FD071D010>
+      finish pytest_metadata --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000019FD3C2CC20>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000019FD3C2F230>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: _pyrepl [assertion]
+    early skip of rewriting module: _pyrepl.utils [assertion]
+    early skip of rewriting module: _pyrepl.types [assertion]
+    early skip of rewriting module: _pyrepl.trace [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+          plugin_name: 1785905001008
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000019FD071D010>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_bdd.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_bdd\\plugin.py'>
+          plugin_name: pytest-bdd
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          plugin_name: html
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.fixtures' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_html\\fixtures.py'>
+          plugin_name: html_fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          plugin_name: metadata
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\xdist\\plugin.py'>
+          plugin_name: xdist
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.looponfail' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\xdist\\looponfail.py'>
+          plugin_name: xdist.looponfail
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\TARAS~1.SHK\\\\AppData\\\\Local\\\\Temp\\\\tmpidmhj8zg' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\TARAS~1.SHK\\\\AppData\\\\Local\\\\Temp\\\\tmp5ggssdoy' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'C:\\UdemyCourses\\Playwright _Python\\Tests\\Prep_PytestPython_Framework\\playwright\\conftest.py'>
+          plugin_name: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000019FD3C2CC20>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000019FD3C2F230>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x0000019FD3C2F620>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+    matched marked file '_pytest.terminalprogress' (from '_pytest.terminalprogress') [assertion]
+    find_module called for: _pytest.terminalprogress [assertion]
+    found cached rewritten pyc for c:\UdemyCourses\Playwright _Python\Playwright_Python_FULLCourse\PytestPython\.venv\Lib\site-packages\_pytest\terminalprogress.py [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x0000019FD071D010>
+        pytest_plugin_registered [hook]
+            plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x0000019FD3CC1940>
+            plugin_name: terminalprogress-plugin
+            manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+        finish pytest_plugin_registered --> [] [hook]
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminalprogress' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\terminalprogress.py'>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000019FD3CC1A90>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+          plugin_name: 1785905001008
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000019FD071D010>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_bdd.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_bdd\\plugin.py'>
+          plugin_name: pytest-bdd
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          plugin_name: html
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.fixtures' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_html\\fixtures.py'>
+          plugin_name: html_fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          plugin_name: metadata
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      early skip of rewriting module: _ast_unparse [assertion]
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.plugin' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\xdist\\plugin.py'>
+          plugin_name: xdist
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.looponfail' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\xdist\\looponfail.py'>
+          plugin_name: xdist.looponfail
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\TARAS~1.SHK\\\\AppData\\\\Local\\\\Temp\\\\tmpidmhj8zg' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\TARAS~1.SHK\\\\AppData\\\\Local\\\\Temp\\\\tmp5ggssdoy' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'C:\\UdemyCourses\\Playwright _Python\\Tests\\Prep_PytestPython_Framework\\playwright\\conftest.py'>
+          plugin_name: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000019FD3C2CC20>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000019FD3C2F230>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x0000019FD3C2F620>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x0000019FD3CC1940>
+          plugin_name: terminalprogress-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminalprogress' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\terminalprogress.py'>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000019FD3CC1A90>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x0000019FD3CC23C0>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019FD03BB230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x0000019FD071D010>
+          start_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright
+      finish pytest_report_header --> [['rootdir: C:\\UdemyCourses\\Playwright _Python\\Tests\\Prep_PytestPython_Framework\\playwright', 'plugins: base-url-2.1.0, bdd-8.1.0, html-4.2.0, metadata-3.1.1, playwright-0.9.0, xdist-3.8.0'], ['using: pytest-9.1.1', 'registered third-party plugins:', '  pytest-base-url-2.1.0 at c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_base_url\\plugin.py', '  pytest-bdd-8.1.0 at c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_bdd\\plugin.py', '  pytest-html-4.2.0 at c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_html\\plugin.py', '  pytest-html-4.2.0 at c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_html\\fixtures.py', '  pytest-metadata-3.1.1 at c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_metadata\\plugin.py', '  pytest-playwright-0.9.0 at c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py', '  pytest-xdist-3.8.0 at c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\xdist\\plugin.py', '  pytest-xdist-3.8.0 at c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\xdist\\looponfail.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['test_playwrightBasics.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=WindowsPath('C:/UdemyCourses/Playwright _Python/Tests/Prep_PytestPython_Framework/playwright/test_playwrightBasics.py'), parts=[], parametrization=None, module_name=None, original_index=0) [collection]
+            pytest_collect_directory [hook]
+                path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir playwright> [hook]
+            pytest_collectstart [hook]
+                collector: <Dir playwright>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Dir playwright>
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\.pytest_cache
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\Playwright
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\Playwright
+                  parent: <Dir playwright>
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\TEST.py
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\TEST.py
+                  parent: <Dir playwright>
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\TestReport.html
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\TestReport.html
+                  parent: <Dir playwright>
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\__pycache__
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\assets
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\assets
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir assets> [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\conftest.py
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\conftest.py
+                  parent: <Dir playwright>
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\data
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\data
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir data> [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\features
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\features
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir features> [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\pageObjects
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\pageObjects
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir pageObjects> [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\pytestdebug.log
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\pytestdebug.log
+                  parent: <Dir playwright>
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\report.html
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\report.html
+                  parent: <Dir playwright>
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_MoreValidations.py
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_MoreValidations.py
+                  parent: <Dir playwright>
+                pytest_pycollect_makemodule [hook]
+                    module_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_MoreValidations.py
+                    parent: <Dir playwright>
+                finish pytest_pycollect_makemodule --> <Module test_MoreValidations.py> [hook]
+              finish pytest_collect_file --> [<Module test_MoreValidations.py>] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_Network1.py
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_Network1.py
+                  parent: <Dir playwright>
+                pytest_pycollect_makemodule [hook]
+                    module_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_Network1.py
+                    parent: <Dir playwright>
+                finish pytest_pycollect_makemodule --> <Module test_Network1.py> [hook]
+              finish pytest_collect_file --> [<Module test_Network1.py>] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_Network2.py
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_Network2.py
+                  parent: <Dir playwright>
+                pytest_pycollect_makemodule [hook]
+                    module_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_Network2.py
+                    parent: <Dir playwright>
+                finish pytest_pycollect_makemodule --> <Module test_Network2.py> [hook]
+              finish pytest_collect_file --> [<Module test_Network2.py>] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_UIValidations_1.py
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_UIValidations_1.py
+                  parent: <Dir playwright>
+                pytest_pycollect_makemodule [hook]
+                    module_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_UIValidations_1.py
+                    parent: <Dir playwright>
+                finish pytest_pycollect_makemodule --> <Module test_UIValidations_1.py> [hook]
+              finish pytest_collect_file --> [<Module test_UIValidations_1.py>] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_framework_web_api.py
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_framework_web_api.py
+                  parent: <Dir playwright>
+                pytest_pycollect_makemodule [hook]
+                    module_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_framework_web_api.py
+                    parent: <Dir playwright>
+                finish pytest_pycollect_makemodule --> <Module test_framework_web_api.py> [hook]
+              finish pytest_collect_file --> [<Module test_framework_web_api.py>] [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_playwrightBasics.py
+                  parent: <Dir playwright>
+                pytest_pycollect_makemodule [hook]
+                    module_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_playwrightBasics.py
+                    parent: <Dir playwright>
+                finish pytest_pycollect_makemodule --> <Module test_playwrightBasics.py> [hook]
+              finish pytest_collect_file --> [<Module test_playwrightBasics.py>] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_pytest-bddTest.py
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_pytest-bddTest.py
+                  parent: <Dir playwright>
+                pytest_pycollect_makemodule [hook]
+                    module_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_pytest-bddTest.py
+                    parent: <Dir playwright>
+                finish pytest_pycollect_makemodule --> <Module test_pytest-bddTest.py> [hook]
+              finish pytest_collect_file --> [<Module test_pytest-bddTest.py>] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_web_api.py
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  file_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_web_api.py
+                  parent: <Dir playwright>
+                pytest_pycollect_makemodule [hook]
+                    module_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_web_api.py
+                    parent: <Dir playwright>
+                finish pytest_pycollect_makemodule --> <Module test_web_api.py> [hook]
+              finish pytest_collect_file --> [<Module test_web_api.py>] [hook]
+              pytest_ignore_collect [hook]
+                  collection_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\utils
+                  config: <_pytest.config.Config object at 0x0000019FD071D010>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\utils
+                  parent: <Dir playwright>
+              finish pytest_collect_directory --> <Dir utils> [hook]
+            finish pytest_make_collect_report --> <CollectReport '.' lenresult=13 outcome='passed'> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module test_playwrightBasics.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_playwrightBasics.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_playwrightBasics.py>
+      find_module called for: test_playwrightBasics [assertion]
+      matched test file (was specified on cmdline): 'C:\\UdemyCourses\\Playwright _Python\\Tests\\Prep_PytestPython_Framework\\playwright\\test_playwrightBasics.py' [assertion]
+      found cached rewritten pyc for C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test_playwrightBasics.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'c:\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\.venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: time
+            obj: <module 'time' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: Page
+            obj: <class 'playwright.sync_api._generated.Page'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: Playwright
+            obj: <class 'playwright.sync_api._generated.Playwright'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: expect
+            obj: <playwright.sync_api.Expect object at 0x0000019FD26C5A90>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: test_playwrightBasics
+            obj: <function test_playwrightBasics at 0x0000019FD3EE3AB0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000019FD3CC3770>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_playwrightBasics>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: test_playwrightShortCut
+            obj: <function test_playwrightShortCut at 0x0000019FD3EE3C10>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000019FD3CAF890>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x0000019FD071D010>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          early skip of rewriting module: encodings.unicode_escape [assertion]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_playwrightShortCut[chromium]>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: test_coreLocators
+            obj: <function test_coreLocators at 0x0000019FD3EE3D70>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000019FD3CAF890>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x0000019FD071D010>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_coreLocators[chromium]>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_playwrightBasics.py>
+            name: test_firefoxBrowser
+            obj: <function test_firefoxBrowser at 0x0000019FD3EE3ED0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000019FD3EEC510>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_firefoxBrowser>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'test_playwrightBasics.py' lenresult=4 outcome='passed'> [hook]
+    genitems <Function test_playwrightBasics> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_playwrightBasics>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_playwrightShortCut[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_playwrightShortCut[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_coreLocators[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_coreLocators[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_firefoxBrowser> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_firefoxBrowser>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'test_playwrightBasics.py' lenresult=4 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x0000019FD071D010>
+          items: [<Function test_playwrightBasics>, <Function test_playwrightShortCut[chromium]>, <Function test_coreLocators[chromium]>, <Function test_firefoxBrowser>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x0000019FD071D010>
+            start_path: C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright
+            items: [<Function test_playwrightBasics>, <Function test_playwrightShortCut[chromium]>, <Function test_coreLocators[chromium]>, <Function test_firefoxBrowser>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=4>
+      pytest_runtest_protocol [hook]
+          item: <Function test_playwrightBasics>
+          nextitem: <Function test_playwrightShortCut[chromium]>
+        pytest_runtest_logstart [hook]
+            nodeid: test_playwrightBasics.py::test_playwrightBasics
+            location: ('D:\\Work\\Trainings\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\playwright\\test_playwrightBasics.py', 5, 'test_playwrightBasics')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_playwrightBasics>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_playwrightBasics>>
+          finish pytest_fixture_setup -->  [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_playwrightBasics>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_playwrightBasics>>
+          finish pytest_fixture_setup --> <_pytest.config.Config object at 0x0000019FD071D010> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_playwrightBasics>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_playwrightBasics>>
+          finish pytest_fixture_setup --> <playwright._impl._playwright.Playwright object at 0x0000019FD3F157F0> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_playwrightBasics>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_playwrightBasics' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_playwrightBasics' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_playwrightBasics' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_playwrightBasics>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_playwrightBasics>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_playwrightBasics>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_playwrightBasics' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_playwrightBasics' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_playwrightBasics' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_playwrightBasics>
+            nextitem: <Function test_playwrightShortCut[chromium]>
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_playwrightBasics>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_playwrightBasics' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_playwrightBasics' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_playwrightBasics' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_playwrightBasics.py::test_playwrightBasics
+            location: ('D:\\Work\\Trainings\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\playwright\\test_playwrightBasics.py', 5, 'test_playwrightBasics')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_playwrightShortCut[chromium]>
+          nextitem: <Function test_coreLocators[chromium]>
+        pytest_runtest_logstart [hook]
+            nodeid: test_playwrightBasics.py::test_playwrightShortCut[chromium]
+            location: ('D:\\Work\\Trainings\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\playwright\\test_playwrightBasics.py', 12, 'test_playwrightShortCut[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_playwrightShortCut[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> <BrowserType name=chromium executable_path=C:\Users\taras.shkoropad\AppData\Local\ms-playwright\chromium-1234\chrome-win64\chrome.exe> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> <function launch_browser.<locals>.launch at 0x0000019FD417AE50> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> <Browser type=<BrowserType name=chromium executable_path=C:\Users\taras.shkoropad\AppData\Local\ms-playwright\chromium-1234\chrome-win64\chrome.exe> version=151.0.7922.34> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> <TemporaryDirectory 'C:\\Users\\TARAS~1.SHK\\AppData\\Local\\Temp\\playwright-pytest-m9sxkg4b'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test-results\test-playwrightbasics-py-test-playwrightshortcut-chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x0000019FD41F0590> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x0000019FD423C1A0> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=C:\Users\taras.shkoropad\AppData\Local\ms-playwright\chromium-1234\chrome-win64\chrome.exe> version=151.0.7922.34>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_playwrightShortCut[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_playwrightShortCut[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_playwrightShortCut[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_playwrightShortCut[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_playwrightShortCut[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_playwrightShortCut[chromium]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_playwrightShortCut[chromium]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_playwrightShortCut[chromium]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_playwrightShortCut[chromium]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_playwrightShortCut[chromium]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_playwrightShortCut[chromium]>
+            nextitem: <Function test_coreLocators[chromium]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_playwrightShortCut[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_playwrightShortCut[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_playwrightShortCut[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_playwrightShortCut[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_playwrightBasics.py::test_playwrightShortCut[chromium]
+            location: ('D:\\Work\\Trainings\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\playwright\\test_playwrightBasics.py', 12, 'test_playwrightShortCut[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_coreLocators[chromium]>
+          nextitem: <Function test_firefoxBrowser>
+        pytest_runtest_logstart [hook]
+            nodeid: test_playwrightBasics.py::test_coreLocators[chromium]
+            location: ('D:\\Work\\Trainings\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\playwright\\test_playwrightBasics.py', 17, 'test_coreLocators[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_coreLocators[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_setup --> C:\UdemyCourses\Playwright _Python\Tests\Prep_PytestPython_Framework\playwright\test-results\test-playwrightbasics-py-test-corelocators-chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x0000019FD3F6D590> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x0000019FD423EF00> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=C:\Users\taras.shkoropad\AppData\Local\ms-playwright\chromium-1234\chrome-win64\chrome.exe> version=151.0.7922.34>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_coreLocators[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_coreLocators[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_coreLocators[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_coreLocators[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_coreLocators[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_coreLocators[chromium]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_coreLocators[chromium]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_coreLocators[chromium]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_coreLocators[chromium]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_coreLocators[chromium]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_coreLocators[chromium]>
+            nextitem: <Function test_firefoxBrowser>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_coreLocators[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_coreLocators[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_coreLocators[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_coreLocators[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_coreLocators[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_playwrightBasics.py::test_coreLocators[chromium]
+            location: ('D:\\Work\\Trainings\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\playwright\\test_playwrightBasics.py', 17, 'test_coreLocators[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_firefoxBrowser>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: test_playwrightBasics.py::test_firefoxBrowser
+            location: ('D:\\Work\\Trainings\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\playwright\\test_playwrightBasics.py', 28, 'test_firefoxBrowser')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_firefoxBrowser>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_firefoxBrowser>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_firefoxBrowser' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_firefoxBrowser' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_firefoxBrowser' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_firefoxBrowser>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_firefoxBrowser>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_firefoxBrowser>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_firefoxBrowser' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_firefoxBrowser' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_firefoxBrowser' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_firefoxBrowser>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_playwrightShortCut[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_playwrightBasics>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_playwrightBasics>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_playwrightBasics>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_playwrightBasics>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_playwrightBasics>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_firefoxBrowser>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'test_playwrightBasics.py::test_firefoxBrowser' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_playwrightBasics.py::test_firefoxBrowser' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_playwrightBasics.py::test_firefoxBrowser' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019FD071D010>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_playwrightBasics.py::test_firefoxBrowser
+            location: ('D:\\Work\\Trainings\\UdemyCourses\\Playwright _Python\\Playwright_Python_FULLCourse\\PytestPython\\playwright\\test_playwrightBasics.py', 28, 'test_firefoxBrowser')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=0 testsfailed=0 testscollected=4>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x0000019FD3C2F620>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x0000019FD071D010>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x0000019FD071D010>
+    finish pytest_unconfigure --> [] [hook]
